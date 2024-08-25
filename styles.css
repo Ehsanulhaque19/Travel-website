@@ -422,69 +422,6 @@ nav {
   color: goldenrod;
 }
 
-/* booking form */
-
-.booking .heading-title{
-  font-size: 35px;
-}
-
-.booking .book-form{
-  padding: 2rem;
-  background: #c8c8c6;
-}
-
-.booking .book-form .flex{
-  display: flex;
-  flex-wrap: wrap;
-  gap:2rem;
-}
-
-.booking .book-form .flex .inputbox{
-  flex: 1 1 25rem;
-}
-
-.booking .book-form .flex .inputbox input{
-  width: 100%;
-  padding: 12px 8px;
-  font-size: 1.3rem;
-  color: #333232;
-  text-transform: none;
-  margin-top: 1.2rem;
-  border: .1rem solid rgb(8, 8, 8);
-  border-radius: 5px;
-}
-
-.booking .book-form .flex .inputbox input:focus{
-  background: #646464;
-  color: #090909;
-}
-
-.booking .book-form .flex .inputbox input:focus::placeholder{
-  color: #f5f6f8;
-}
-
-.booking .book-form .flex .inputbox span{
-  font-size: 1.5rem;
-  color: #646464;
-}
-
-.booking .book-form .btn{
-  margin-top: 2rem;
-  display: inline-block;
-  background: #1c1b1b;
-  color: #f7f7f5;
-  font-size: 1.2rem;
-  padding: 1rem 1.6rem;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.booking .book-form .btn:hover{
-  background: #112b5a;
-}
-
-
-
 
 .footer {
   background-color: var(--primary-color-dark);
